@@ -11,7 +11,12 @@
   padding: 30px;
   text-align: center;
   width: 500px;
-  height: 600px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   
 }
 .coursesCard .items:hover{
@@ -42,6 +47,9 @@
   font-size: 30px;
   font-weight: 500;
   line-height: 45px;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 .coursesCard .rate {
   margin: 20px 0;
@@ -69,9 +77,14 @@
   
 }
 .coursesCard .details span {
-  color: #1eb2a6;
+  color: #6a6767;
   font-weight: 500;
   font-size:20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.coursesCard .details span:hover{
+  color: black;
 }
 .coursesCard .price {
   margin: 30px 0;
@@ -81,6 +94,7 @@
 .coursesCard h3 {
   font-weight: 500;
   color: #1eb2a6;
+
 }
 /*-------------online---------*/
 .online {
@@ -136,7 +150,7 @@
 }
 /*-------------online---------*/
 @media screen and (max-width: 768px) {
-  .coursesCard{
-    flex-direction: column-reverse;
+  .coursesCard .items{
+ grid-column: span 2;
   }
 }
