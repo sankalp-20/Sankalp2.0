@@ -37,7 +37,7 @@ export const coursesCard = [
     coursesName: "VISION:",
     courTeacher: [
       { id:1,
-        dcover: "./images/back.webp",
+        // dcover: "./images/back.webp",
         totalTime: "To establish an organization that is capable of eradicating the illiteracy which is due to poverty, i.e. lack of literacy due to economic status; further, identifying bright minds and enabling them to excel in their field of interest simultaneously monitoring their academic activities throughout their career..",
       },
     ],
@@ -50,7 +50,7 @@ export const coursesCard = [
     coursesName: "GOAL:",
     courTeacher: [
       {id:2,
-        dcover: "./images/back.webp",
+        // dcover: "./images/back.webp",
         totalTime: "1.Provide sound basic and moral education to the deprived Organizing 2.Parents-Teacher meet on a frequent basis, thus allowing guardians to get a thorough feedback of their child. 3.Conduction of Teacher’s Orientation Programme thus helping in increasing the efficiency of teachers 4.Bifurcation of the parent institution in various departments: it felicitates easy working of the organization." ,
       },
     ],
