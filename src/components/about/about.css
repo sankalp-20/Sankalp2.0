@@ -1,5 +1,6 @@
 .aboutHome {
   height: auto;
+  margin-top: 50px;
   
 }
 
@@ -10,9 +11,10 @@
 
 .aboutHome .left img {
   width: 100%;
-  height: auto; /* Adjusted height for responsiveness */
+  height: 90%; /* Adjusted height for responsiveness */
   padding-top: 0; /* Removed unnecessary padding-top */
   object-fit: cover;
+  margin-top: 50px;
 }
 
 .aboutHome .right {
