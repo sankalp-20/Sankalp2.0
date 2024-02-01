@@ -146,7 +146,7 @@ export const team = [
   },
   //-------Senior Core------------------------------------------------------------------------------------------------------//
   { id: 10,
-    cover: "",
+    // cover: "",
     name: "Core Members 2k20",
     work: "",
   },
@@ -188,6 +188,11 @@ export const team = [
   { id: 18,
     cover: "./images/team/t17.webp",
     name: "Sarita",
+    work: "CORE MEMBER 2k20",
+  },
+  { id: 19,
+    cover: "./images/team/t18.webp",
+    name: "Satish",
     work: "CORE MEMBER 2k20",
   },
 ]
