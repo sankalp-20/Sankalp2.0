@@ -90,6 +90,12 @@ export const online = [
     courseName: "Republic Day",
    
   },
+  { id: 6,
+    cover: "./images/courses/online/9.jpg",
+    // hoverCover: "./images/courses/online/o11.1.png",
+    courseName: "Explore More On Facebook page",
+   
+  },
   
 ]
 export const team = [
