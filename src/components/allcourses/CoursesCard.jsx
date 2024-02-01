@@ -11,9 +11,9 @@ const CoursesCard = () => {
             <div key={val.id} className='items'>
               <div className='content flex'>
                 <div className='left'>
-                  <div className='img'>
+{/*                   <div className='img'>
                     <img src={val.cover} alt='' />
-                  </div>
+                  </div> */}
                 </div>
                 <div className='text'>
                   <h1>{val.coursesName}</h1>
