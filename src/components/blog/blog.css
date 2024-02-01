@@ -2,9 +2,18 @@
   width: 100%;
   height: 100%;
 }
+.blog .items{
+  margin-bottom: 30px;
+}
+.blog .items:hover{
+  background-color: #1eb2a6;
+  color: #fff;
+}
 
 .blog .text {
-  padding: 20px; /* Adjust padding for better responsiveness */
+  padding: 20px;
+   /* Adjust padding for better responsiveness */
+  
 }
 
 .blog h1 {
@@ -16,7 +25,7 @@
 }
 
 .blog h1:hover {
-  color: #11424f;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -60,4 +69,5 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 
