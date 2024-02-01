@@ -4,6 +4,7 @@
 }
 .blog .items{
   margin-bottom: 30px;
+  border-radius:5px
 }
 .blog .items:hover{
   background-color: #1eb2a6;
