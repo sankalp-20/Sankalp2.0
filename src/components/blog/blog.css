@@ -2,8 +2,9 @@
   width: 100%;
   height: 100%;
 }
+
 .blog .text {
-  padding: 40px 30px;
+  padding: 20px; /* Adjust padding for better responsiveness */
 }
 
 .blog h1 {
@@ -13,28 +14,33 @@
   margin: 20px 0;
   transition: 0.5s;
 }
+
 .blog h1:hover {
   color: #11424f;
   cursor: pointer;
 }
+
 .blog span {
   text-transform: uppercase;
   font-weight: 500;
   color: #1eb2a6;
 }
+
 .blog span label {
   margin-left: 10px;
   color: grey;
   font-size: 14px;
 }
+
 .blog span:nth-last-child(1) label {
   color: #1eb2a6;
 }
+
 .blog p {
   color: grey;
 }
 
-.button1{
+.button1 {
   color: white;
   background-color: blue;
   border-radius: 30px;
@@ -42,8 +48,16 @@
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+  margin-top: 15px; /* Add margin for spacing */
 }
-.button1:hover{
+
+.button1:hover {
   background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .blog span {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
